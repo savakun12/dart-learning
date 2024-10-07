@@ -20,3 +20,19 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+//Hello world
+void main() {
+  print('Hello, World!');
+}
+
+//Variabel dengan Tipe Data
+void main() {
+int age = 30;
+double height = 5.9;
+String name = 'Alice';
+boool isStudent = false;
+
+print('Name: $name, Age: $age, Height: $height, Is Student: $isStudent');
+}
+  
