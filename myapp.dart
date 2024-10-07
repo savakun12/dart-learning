@@ -118,5 +118,25 @@ Future<void> fetchData() async {
   await Future.delayed(Duration(seconds: 2));
   print('Data berhasil diambil');
 }
+
+// Flutter Intregrationn
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(myApp());
+}
+
+class MyApp extends StatelessWidget {
+@Override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: Text('Hello Flutter')),
+        body: Center(child: Text('Hello, World!')),
+        ),
+      );
+  }
+}
+  
   
   
