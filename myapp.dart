@@ -107,6 +107,16 @@ void main() {
 }
 
 //Asycronous Programming
+void main() async {
+  print('Memulai...');
+  await fetchData();
+  print('Selesai.');
+}
 
+Future<void> fetchData() async {
+  //Simulasi menunggu data selama 2 detik
+  await Future.delayed(Duration(seconds: 2));
+  print('Data berhasil diambil');
+}
   
   
