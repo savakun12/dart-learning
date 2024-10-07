@@ -86,4 +86,27 @@ void main() {
     print('$name: $score');
   });
 }
+
+  //Kelas dan objek
+  class Car {
+    String make;
+    String model;
+
+    //Konstruktor
+    Car(this.make, this.model);
+
+    //method
+    void displayInfo() {
+      print('Mobl: $make $model');
+    }
+  }
+
+void main() {
+  Car myCar = Car('Toyota', 'Camry');
+  myCar.displayInfo();
+}
+
+//Asycronous Programming
+
+  
   
