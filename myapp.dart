@@ -28,11 +28,24 @@ void main() {
 
 //Variabel dengan Tipe Data
 void main() {
+// Variabel dengan tipe data eksplisit
 int age = 30;
 double height = 5.9;
 String name = 'Alice';
 boool isStudent = false;
 
 print('Name: $name, Age: $age, Height: $height, Is Student: $isStudent');
+}
+
+//Fungsi
+vpid main() {
+  //Memanggil fungsi
+  int result = add(5, 10);
+  print('Hasil: $result');
+}
+
+//fungsi untuk menjumlahkan dua angka
+int add(int a, int b) {
+  return a + b;
 }
   
