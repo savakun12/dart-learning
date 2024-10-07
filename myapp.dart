@@ -48,4 +48,19 @@ vpid main() {
 int add(int a, int b) {
   return a + b;
 }
+
+//Pengulangan dan percabangan 
+void main() {
+  //percabangan
+  int number = 10;
+  if (number % 2 == 0) {
+    print('$number adalah angka genap');
+  } else {
+    print('$number adalah angka ganjil');
+  }
+//Pengulangan
+for (int i = 1; i <= 5; i ++) {
+  print('Perulangan ke-$i');
+}
+}
   
