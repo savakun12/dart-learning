@@ -58,9 +58,32 @@ void main() {
   } else {
     print('$number adalah angka ganjil');
   }
+  
 //Pengulangan
 for (int i = 1; i <= 5; i ++) {
   print('Perulangan ke-$i');
 }
+}
+
+//List dan Map
+void main() {
+  //list
+  List<String> fruits = ['Apple', 'Banana', 'Cherry'];
+  fruit.add('Orange');
+
+  for (var fruit in fruits) {
+    print(fruit);
+  }
+
+  //Map
+  Map<String, int> scores = {
+    'Alice': 90,
+    'Bob': 80,
+    'Charlie': 85,
+  };
+
+  scores.forEach((name, score) {
+    print('$name: $score');
+  });
 }
   
